@@ -7,7 +7,7 @@ router.get('/animal', function(req, res, next) {
 });
 
 router.get('/animal/dog',function (req,res,next) {
-    res.download('animals','dog');
+    res.download('anis','dog');
 })
 
 module.exports = router;
